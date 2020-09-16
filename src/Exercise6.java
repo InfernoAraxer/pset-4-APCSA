@@ -1,12 +1,11 @@
-import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Exercise6 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("What's the length of your rectangle?");
+        System.out.print("Length    : ");
         int length = input.nextInt();
-        System.out.println("What's the width of your rectangle?");
+        System.out.print("Width     : ");
         int width = input.nextInt();
 
         int area = length * width;
@@ -14,15 +13,8 @@ public class Exercise6 {
 
         double diagonal = StrictMath.hypot(length, width);
 
-        NumberFormat nf = NumberFormat.getNumberInstance();
-        nf.setGroupingUsed(true);
-        nf.setMinimumFractionDigits(2);
-        nf.setMaximumFractionDigits(2);
-
-        System.out.println("Length    : " + length);
-        System.out.println("Width     : " + width + "\n");
-        System.out.println("Area      : " + nf.format(area));
-        System.out.println("Perimeter : " + nf.format(perimeter));
-        System.out.println("Diagonal  : " + nf.format(diagonal));
+        System.out.printf("\nArea      : %,.2f", (double) area);
+        System.out.printf("\nPerimeter : %,.2f", (double) perimeter);
+        System.out.printf("\nDiagonal  : %,.2f", diagonal);
     }
 }

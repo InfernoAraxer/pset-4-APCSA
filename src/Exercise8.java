@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercise8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter some text you want reversed and capitalize.");
+        System.out.print("Text : ");
         String text = input.nextLine();
         String textCapitalized = text.toUpperCase();
         int length = textCapitalized.length();
@@ -11,7 +11,6 @@ public class Exercise8 {
         String inBack = textCapitalized.substring(0, divider);
         String inFront = textCapitalized.substring(divider);
 
-        System.out.println("Text : " + text + "\n");
-        System.out.println(inFront + inBack + ".");
+        System.out.println("\n" + inFront + inBack + ".");
     }
 }
