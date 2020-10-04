@@ -11,7 +11,8 @@ public class Exercise7 {
         double area = triangleArea * 6;
         int perimeter = side * 6;
 
-        System.out.printf("\nArea      : %,.2f", area);
-        System.out.printf("\nPerimeter : %,.2f", (double) perimeter);
+        System.out.printf("\nArea      : %,.2f%n", area);
+        System.out.printf("Perimeter : %,.2f%n", (double) perimeter);
+        input.close();
     }
 }

@@ -13,8 +13,9 @@ public class Exercise6 {
 
         double diagonal = StrictMath.hypot(length, width);
 
-        System.out.printf("\nArea      : %,.2f", (double) area);
-        System.out.printf("\nPerimeter : %,.2f", (double) perimeter);
-        System.out.printf("\nDiagonal  : %,.2f", diagonal);
+        System.out.printf("\nArea      : %,.2f%n", (double) area);
+        System.out.printf("Perimeter : %,.2f%n", (double) perimeter);
+        System.out.printf("Diagonal  : %,.2f%n", diagonal);
+        input.close();
     }
 }

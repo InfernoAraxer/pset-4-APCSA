@@ -12,5 +12,6 @@ public class Exercise8 {
         String inFront = textCapitalized.substring(divider);
 
         System.out.println("\n" + inFront + inBack + ".");
+        input.close();
     }
 }

@@ -14,6 +14,7 @@ public class Exercise3 {
         double circleArea = Math.PI * (Math.pow(0.5 * diameter, 2));
         double totalArea = area - circleArea;
 
-        System.out.printf("\nSurface Area  : %,.2f", totalArea);
+        System.out.printf("\nSurface Area  : %,.2f%n", totalArea);
+        input.close();
     }
 }

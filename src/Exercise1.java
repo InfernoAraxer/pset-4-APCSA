@@ -10,6 +10,7 @@ public class Exercise1 {
 
         double windChill = 35.74 + (0.6215 * temperature) + ((0.4275 * temperature) - 35.75) * Math.pow(windSpeed, 0.16);
 
-        System.out.printf("\nWind Chill  : %,.2f", windChill);
+        System.out.printf("\nWind Chill  : %,.2f%n", windChill);
+        input.close();
     }
 }

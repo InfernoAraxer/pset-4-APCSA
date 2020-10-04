@@ -1,4 +1,3 @@
-import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Exercise5 {
@@ -10,7 +9,8 @@ public class Exercise5 {
         double circleArea = Math.PI * (Math.pow(0.5 * diameter, 2));
         double circleCircumference = Math.PI * diameter;
 
-        System.out.printf("\nArea          : %,.2f", circleArea);
-        System.out.printf("\nCircumference : %,.2f", circleCircumference);
+        System.out.printf("\nArea          : %,.2f%n", circleArea);
+        System.out.printf("Circumference : %,.2f%n", circleCircumference);
+        input.close();
     }
 }

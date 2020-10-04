@@ -9,6 +9,7 @@ public class Exercise10 {
         System.out.println("\nText   : " + favCity);
         System.out.println("Length : " + favCity.length());
         System.out.println("Lower  : " + favCity.toLowerCase());
-        System.out.println("Upper  : " + favCity.toUpperCase());
+        System.out.println("Upper  : " + favCity.toUpperCase() + "\n");
+        input.close();
     }
 }
