@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercise7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Side      : ");
+        System.out.print("Side : ");
         int side = input.nextInt();
 
         double height = side * Math.sin((60 * Math.PI) / 180);

@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Exercise6 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Length    : ");
+        System.out.print("Length : ");
         int length = input.nextInt();
-        System.out.print("Width     : ");
+        System.out.print("Width  : ");
         int width = input.nextInt();
 
         int area = length * width;
